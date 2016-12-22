@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="news">新闻</string>
+    <string name="photo">拍照</string>
+    <string name="weather">天气预报</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="news_text_format">%1$s %2$s</string>
+    <string name="share_text_format">来自卡卡星球的分享：%1$s %2$s</string>
+
+</resources>

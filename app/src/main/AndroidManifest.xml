@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.liubiao.mvptext">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <application
+        android:name="com.example.liubiao.mvptest.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.liubiao.mvptest.mvp.ui.activity.SplashActivity"
+            android:theme="@style/AppTheme.Trans"
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.liubiao.mvptest.mvp.ui.activity.NewsActivity"
+            android:theme="@style/AppTheme.Trans"
+            />
+        <activity android:name="com.example.liubiao.mvptest.mvp.ui.activity.NewsAddActivity"
+            android:theme="@style/AppTheme.Trans"
+            />
+        <activity android:name="com.example.liubiao.mvptest.mvp.ui.activity.NewsListDetailsActivity"
+            android:theme="@style/AppTheme.Trans"
+            />
+        <activity android:name="com.example.liubiao.mvptest.mvp.ui.activity.NewsListWebViewActivity"
+            android:theme="@style/AppTheme.Trans"
+            />
+        <activity android:name="com.example.liubiao.mvptest.mvp.ui.activity.NewsDetailPhotoActivity"
+            android:theme="@style/AppTheme.Trans"
+            />
+        <activity android:name="com.example.liubiao.mvptest.mvp.ui.activity.BeautyActivity"
+            android:theme="@style/AppTheme.Trans"
+            />
+        <activity android:name="com.example.liubiao.mvptest.mvp.ui.activity.BeautyDetailActivity"
+            android:theme="@style/AppTheme.Trans"
+            />
+    </application>
+
+</manifest>
